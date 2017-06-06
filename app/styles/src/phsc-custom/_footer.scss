@@ -1,0 +1,14 @@
+@import "../variables";
+
+// Footer
+.phsc-footer {
+  background: $grey-dark;
+  background-color: $grey-dark;
+  color: $white;
+  // link
+  a {
+    &:hover {
+      color: $gold;
+    }
+  }
+}

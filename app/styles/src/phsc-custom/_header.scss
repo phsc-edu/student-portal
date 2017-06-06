@@ -1,0 +1,23 @@
+@import "../variables";
+
+// Header
+.phsc-header {
+  background: $black;
+  background-color: $black;
+  .mdl-layout-title {
+    color: $white;
+  }
+  // Navigation
+  a.mdl-navigation__link {
+    background-color: transparent !important;
+    border-bottom: 4px solid transparent;
+    color: $gold;
+    display: inline-block;
+    height: 60px;
+    line-height: 68px;
+    &:hover {
+      border-bottom: 4px solid $gold;
+    }
+  }
+}
+
