@@ -1,1 +1,25 @@
 @import "../variables";
+
+// Drawer navigation
+.phsc-nav {
+  background: $black;
+  background-color: $black;
+  // Links
+  .mdl-navigation__link {
+    color: $white;
+    &:hover {
+      background: $white !important;
+      background-color: $white !important;
+      color: $black !important;
+    }
+
+    // Group titles
+    &.mdl-typography--text-uppercase {
+      &.nohover {
+        background: $gold;
+        color: $white;
+        pointer-events: none;
+      }
+    }
+  }
+}
