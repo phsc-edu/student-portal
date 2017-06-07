@@ -1,0 +1,37 @@
+@import "../variables";
+
+// Main content
+.phsc-main {
+  background: $black;
+  background-color: $black;
+  // Slogan mobile
+  @media only screen and (max-width: 700px) {
+    h1 {
+      font-size: 28px;
+      font-size: 1.75em;
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+  }
+  // Slogan desktop
+  h1 {
+    color: $white;
+    font-size: 48px;
+    font-size: 3em;
+    padding-top: 1em;
+  }
+
+  // Background image
+  &__background {
+    position: relative;
+    min-height: 700px;
+    width: auto;
+    background-color: $black;
+    background: url('../images/background.png') center no-repeat;
+    background-size: cover;
+  }
+  // Grid
+  .mdl-grid {
+    padding: 0 3em 3em;
+  }
+}

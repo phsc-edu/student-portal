@@ -1,0 +1,44 @@
+@import "../variables";
+
+// Square card
+.card-square {
+  &.mdl-card {
+    height: 320px;
+  }
+  // Title
+  > .mdl-card__title {
+    color: $white;
+    // Canvas image
+    &.canvas {
+      background: url('../images/icon/canvas.svg') bottom right 5% no-repeat $gold;
+      background-size: 40% auto;
+    }
+    // Email image
+    &.email {
+      background: url('../images/icon/email.svg') bottom right 5% no-repeat $gold;
+      background-size: 40% auto;
+    }
+    // Office 365
+    &.office365 {
+      background: url('../images/icon/office365.svg') bottom right 5% no-repeat $gold;
+      background-size: 40% auto;
+    }
+    // Scholarships image
+    &.scholarships {
+      background: url('../images/icon/scholarships.svg') bottom right 5% no-repeat $gold;
+      background-size: 40% auto;
+    }
+  }
+  // Text
+  .mdl-card__supporting-text {
+    p {
+      line-height: initial;
+      min-height: 6em;
+      padding: 0;
+    }
+  }
+  // Link button
+  a.mdl-button--colored {
+    color: $gold;
+  }
+}

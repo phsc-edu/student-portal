@@ -1,0 +1,40 @@
+@import "../variables";
+
+// Drawer toggle
+.mdl-layout__header .mdl-layout__drawer-button .material-icons {
+  color: $white;
+}
+
+// Drawer content
+.phsc-drawer {
+  background: $black;
+  background-color: $black;
+
+  .mdl-layout__drawer {
+    padding: 0 0 2em;
+  }
+}
+
+// Drawer navigation
+.phsc-nav {
+  background: $black;
+  background-color: $black;
+  // Links
+  .mdl-navigation__link {
+    color: $white;
+    &:hover {
+      background: $white !important;
+      background-color: $white !important;
+      color: $black !important;
+    }
+
+    // Group titles
+    &.mdl-typography--text-uppercase {
+      &.nohover {
+        pointer-events: none;
+        background: $gold;
+        color: $white;
+      }
+    }
+  }
+}
