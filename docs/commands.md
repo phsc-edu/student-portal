@@ -49,7 +49,7 @@ It is important to note a difference between the `serve` and `serve:dist` tasks.
 * `serve:dist` uses the `sw-precache`-generated output and can run offline.
 
 The `serve` task runs on port 3000 and `serve:dist` runs on port 3001.
-The main purpose is to ensure that different service workers will not impact each other's environment. 
+The main purpose is to ensure that different service workers will not impact each other's environment.
 Using the `sw-precache`-generated output makes it very difficult to quickly test local changes which is not ideal for a development server environment.
 
 ## Performance Insights
