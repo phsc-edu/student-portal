@@ -40,6 +40,10 @@
 
 
   <body>
+  <!-- Skiplink for better accessibility -->
+  <div class="skiplink">
+      <a href="#main" class="skiplink__link focusable">Skip to main content</a>
+  </div>
   <!-- Always shows a header, even in smaller screens. -->
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header role="banner" class="phsc-header mdl-layout__header">
@@ -88,7 +92,7 @@
       </nav>
     </div>
     <!-- Main content -->
-    <main role="main" class="phsc-main mdl-layout__content">
+    <main id="main" role="main" class="phsc-main mdl-layout__content" tabindex="-1">
       <!-- Slogan and background-->
       <div class="phsc-main__background">
         <div class="slogan mdl-typography--text-center"><h1>Welcome to the Student Portal</h1>
@@ -104,7 +108,7 @@
               <p>Use Canvas to participate in courses, submit assignments, and communicate with instructors and fellow classmates.</p>
             </div>
             <div class="mdl-card__actions mdl-card--border">
-              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://phsc.instructure.com" target="_blank">
+              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://phsc.instructure.com" target="_blank" alt="Go to Canvas">
                 Go now
                 <i class="material-icons">chevron_right</i>
               </a>
@@ -119,7 +123,7 @@
               <p>Access the official College communication tool for important messages from PHSC and your instructors.</p>
             </div>
             <div class="mdl-card__actions mdl-card--border">
-              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://accounts.google.com/AddSession?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&hd=student.phsc.edu&sacu=1#identifier" target="_blank">
+              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://accounts.google.com/AddSession?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&hd=student.phsc.edu&sacu=1#identifier" target="_blank" alt="Check email">
                 Check email
                 <i class="material-icons">chevron_right</i>
               </a>
@@ -134,7 +138,7 @@
               <p>Microsoft Office products (Word, Powerpoint, Excel, and more) for use in your PHSC courses.</p>
             </div>
             <div class="mdl-card__actions mdl-card--border">
-              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="" target="_blank">
+              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="" target="_blank" alt="Go to Office 365">
                 Go to Office 365
                 <i class="material-icons">chevron_right</i>
               </a>
