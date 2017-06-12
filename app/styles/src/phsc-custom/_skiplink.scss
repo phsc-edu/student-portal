@@ -1,6 +1,6 @@
 @import "../variables";
-// Styles for accessible skiplinks.
 
+// Styles for accessible skiplinks.
 .skiplink {
   left: 50%;
   margin-left: -7em;
@@ -36,6 +36,7 @@
   outline: 0;
 }
 
+// Visually hide but make it show on tab
 .focusable {
   clip: rect(1px, 1px, 1px, 1px) !important;
   height: 1px !important;
@@ -43,12 +44,13 @@
   position: absolute !important;
   width: 1px !important;
   word-wrap: normal !important;
-}
 
-.focusable:active, .focusable:focus {
-  clip: auto !important;
-  height: auto !important;
-  overflow: visible !important;
-  position: static !important;
-  width: auto !important;
+  &:active,
+  &:focus {
+    clip: auto !important;
+    height: auto !important;
+    overflow: visible !important;
+    position: static !important;
+    width: auto !important;
+  }
 }
