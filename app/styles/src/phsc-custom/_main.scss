@@ -23,15 +23,11 @@
 
   // Background image
   &__background {
-    position: relative;
-    min-height: 700px;
-    width: auto;
     background-color: $black;
-    background: url('../images/background.png') center no-repeat;
-    background-size: cover;
   }
   // Grid
   .mdl-grid {
-    padding: 0 3em 3em;
+    min-height: 400px;
+    padding: 0 3em 6em;
   }
 }
