@@ -3,7 +3,7 @@
 // Square card
 .card-square {
   &.mdl-card {
-    height: 320px;
+    min-height: 320px;
   }
   // Title
   > .mdl-card__title {
