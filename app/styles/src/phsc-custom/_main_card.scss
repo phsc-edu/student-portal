@@ -3,7 +3,7 @@
 // Square card
 .card-square {
   &.mdl-card {
-    min-height: 320px;
+    height: 320px;
   }
   // Title
   > .mdl-card__title {
@@ -42,3 +42,34 @@
     color: $gold;
   }
 }
+
+// Media queries
+// Tablet (Landscape)
+@media only screen and (min-width:769px) and (max-width:1024px) {
+  .card-square .mdl-card__supporting-text p {
+    font-size: 15px;
+    font-size: 0.938em;
+  }
+}
+// Tablet (Portrait)
+@media only screen and (min-width:581px) and (max-width:768px) {
+  .card-square .mdl-card__supporting-text p {
+    font-size: 15px;
+    font-size: 0.938em;
+  }
+}
+// Phone (Landscape)
+@media only screen and (min-width:321px) and (max-width:580px) {
+  .card-square .mdl-card__supporting-text p {
+    font-size: 16px;
+    font-size: 1em;
+  }
+}
+// Phone (Portrait)
+@media only screen and (max-width:320px) {
+  .card-square .mdl-card__supporting-text p {
+    font-size: 16px;
+    font-size: 1em;
+  }
+}
+
