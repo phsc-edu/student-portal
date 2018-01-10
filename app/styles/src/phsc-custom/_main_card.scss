@@ -7,7 +7,7 @@
   }
   // Title
   > .mdl-card__title {
-    color: $white;
+    color: $black;
     // Canvas image
     &.canvas {
       background: url('../images/icon/canvas.svg') bottom right 5% no-repeat $gold;
@@ -44,7 +44,7 @@
   }
   // Link button
   a.mdl-button--colored {
-    color: $gold;
+    color: $black;
   }
 }
 
