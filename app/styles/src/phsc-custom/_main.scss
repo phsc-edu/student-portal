@@ -4,21 +4,19 @@
 .phsc-main {
   background: $black;
   background-color: $black;
-  // Slogan mobile
-  @media only screen and (max-width: 700px) {
-    h1 {
-      font-size: 28px;
-      font-size: 1.75em;
-      padding-bottom: 0;
-      margin-bottom: 0;
-    }
-  }
+
   // Slogan desktop
   h1 {
     color: $white;
     font-size: 48px;
     font-size: 3em;
     padding-top: 1em;
+    // Mobile
+    @media (max-width: 600px) {
+      font-size: 28px;
+      font-size: 1.75em;
+      padding-top: 0.5em;
+    }
   }
 
   // Background image
