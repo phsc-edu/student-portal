@@ -204,8 +204,8 @@ $layout-drawer-navigation-link-active-color: unquote("rgb(#{$color-light-contras
 // Header
 $layout-header-bg-color: unquote("rgb(#{$white})") !default;
 $layout-header-text-color: unquote("rgb(#{$white})") !default;
-$layout-header-nav-hover-color: unquote("rgba(#{$gold}, 0.6)") !default;
-$layout-header-tab-text-color: unquote("rgba(#{$white}, 0.6)") !default;
+$layout-header-nav-hover-color: unquote("rgba(#{$gold})") !default;
+$layout-header-tab-text-color: unquote("rgba(#{$white})") !default;
 
 // Tabs
 $layout-header-tab-highlight: unquote("rgb(#{$color-accent})") !default;
