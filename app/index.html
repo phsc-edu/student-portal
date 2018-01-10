@@ -136,7 +136,13 @@
       <!-- Footer -->
       <footer role="contentinfo" class="phsc-footer mdl-mini-footer">
         <div class="mdl-mini-footer__left-section">
-          <div class="mdl-logo">© 2017 Pasco-Hernado State College. All rights reserved.</div>
+             <script type="text/javascript">
+              var date=new Date(),
+              year = date.getFullYear(),
+              text = "© " + year + " Pasco-Hernando State College. All rights reserved.",
+              html = '<div class="mdl-logo">' + text + '</div>';
+              document.write(html);
+            </script>
         </div>
         <div class="mdl-mini-footer__right-section">
           <ul class="mdl-mini-footer__link-list">
