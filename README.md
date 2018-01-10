@@ -1,6 +1,21 @@
+#PHSC Specific
+1. cd to theme folder
+2. Source files are in (app) folder. All changes must be made in app folder!
+3. Compiled files are in (dist) folder
+
+##Compile
+1. <gulp serve> to open up browser sync
+2. <gulp> to compile files to production (dist)
+
+##PHSC Sass folder
+> app/styles/src/phsc-custom
+
+-------------
+
+
 # [![Web Starter Kit](https://cloud.githubusercontent.com/assets/110953/11445049/f05512ba-9520-11e5-8fdb-8c8eb5f690d0.jpg)](https://github.com/google/web-starter-kit/releases/latest)
 
-## Overview
+## Overview for Material Design
 
 [Web Starter Kit](https://developers.google.com/web/tools/starter-kit/) is an opinionated boilerplate for web development. Tools for building a great experience across many devices and [performance oriented](#web-performance). Helping you to stay productive following the best practices outlined in Google's [Web Fundamentals](https://developers.google.com/web/fundamentals/). A solid starting point for both professionals and newcomers to the industry.
 
@@ -73,5 +88,5 @@ Contributions, questions and comments are all welcome and encouraged. For code c
 
 ## License
 
-Apache 2.0  
+Apache 2.0
 Copyright 2015 Google Inc
