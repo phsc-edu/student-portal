@@ -8,6 +8,7 @@
   // Title
   > .mdl-card__title {
     color: $black;
+    font-weight: bolder;
     // Canvas image
     &.canvas {
       background: url('../images/icon/canvas.svg') bottom right 5% no-repeat $gold;
@@ -52,29 +53,29 @@
 // Tablet (Landscape)
 @media only screen and (min-width:769px) and (max-width:1024px) {
   .card-square .mdl-card__supporting-text p {
-    font-size: 15px;
-    font-size: 0.938em;
+    font-size: 16px;
+    font-size: 1em;
   }
 }
 // Tablet (Portrait)
 @media only screen and (min-width:581px) and (max-width:768px) {
   .card-square .mdl-card__supporting-text p {
-    font-size: 15px;
-    font-size: 0.938em;
+    font-size: 16px;
+    font-size: 1em;
   }
 }
 // Phone (Landscape)
 @media only screen and (min-width:321px) and (max-width:580px) {
   .card-square .mdl-card__supporting-text p {
-    font-size: 16px;
-    font-size: 1em;
+    font-size: 18px;
+    font-size: 1.125em;
   }
 }
 // Phone (Portrait)
 @media only screen and (max-width:320px) {
   .card-square .mdl-card__supporting-text p {
-    font-size: 16px;
-    font-size: 1em;
+    font-size: 18px;
+    font-size: 1.125em;
   }
 }
 

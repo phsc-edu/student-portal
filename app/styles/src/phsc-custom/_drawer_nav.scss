@@ -7,6 +7,14 @@
   // Links
   .mdl-navigation__link {
     color: $white;
+    font-size: 16px;
+    font-size: 1em;
+    // Mobile
+    @media (max-width: 600px) {
+      font-size: 18px;
+      font-size: 1.125em;
+    }
+
     &:hover {
       background: $white !important;
       background-color: $white !important;
@@ -17,7 +25,8 @@
     &.mdl-typography--text-uppercase {
       &.nohover {
         background: $gold;
-        color: $white;
+        color: $black;
+        font-weight: bolder;
         pointer-events: none;
       }
     }

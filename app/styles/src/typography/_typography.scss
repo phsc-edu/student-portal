@@ -83,9 +83,15 @@
   }
 
   p {
-    @include typo-body-1;
-
+    // @include typo-body-1;
+    font-size: 16px;
+    font-size: 1em;
     margin-bottom: 16px;
+    // Mobile
+    @media (max-width: 600px) {
+      font-size: 18px;
+      font-size: 1.125em;
+    }
   }
 
   a {
