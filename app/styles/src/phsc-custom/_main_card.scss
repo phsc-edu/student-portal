@@ -28,6 +28,11 @@
       background: url('../images/icon/scholarships.svg') bottom right 5% no-repeat $gold;
       background-size: 40% auto;
     }
+    // Cabinet documents
+    &.cabinet {
+      background: url('../images/icon/cabinet.svg') bottom right 5% no-repeat $gold;
+      background-size: 40% auto;
+    }
   }
   // Text
   .mdl-card__supporting-text {
