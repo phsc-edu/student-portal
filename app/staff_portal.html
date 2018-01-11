@@ -49,6 +49,10 @@
 
 
   <body>
+    <!-- Do not remove! Skiplink for accessibility -->
+    <div class="skiplink">
+      <a href="#main" class="skiplink__link focusable">Skip to main content</a>
+    </div>
   <!-- Always shows a header, even in smaller screens. -->
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
     <header role="banner" class="phsc-header mdl-layout__header">
@@ -72,7 +76,7 @@
         Important Links
         </span>
         <a class="mdl-navigation__link" href="https://access.phsc.edu" target="_blank">Intranet</a>
-  <a class="mdl-navigation__link" href="http://archive.phsc.edu/RetainServer/Manager/login.jsp" target="_blank">Email Archive</a>
+        <a class="mdl-navigation__link" href="http://archive.phsc.edu/RetainServer/Manager/login.jsp" target="_blank">Email Archive</a>
         <a class="mdl-navigation__link" href="https://mysspr.phsc.edu/sspr/private/Login" target="_blank">Password Reset</a>
         <a class="mdl-navigation__link" href="https://phsc.instructure.com/courses/1285916" target="_blank">Office365 Training</a>
         <a class="mdl-navigation__link" href="https://cpnta.phsc.edu/csrs/english/webon.aspx" target="_blank">WISE</a>
@@ -108,8 +112,8 @@
         <a class="mdl-navigation__link" href="https://safety.phsc.edu" target="_blank">Safety and Security</a>
       </nav>
     </div>
-    <!-- Main content -->
-    <main role="main" class="phsc-main mdl-layout__content">
+    <!-- Main content. Do not remove id or tabindex. These allow a screenreader to skip over nav -->
+    <main id="main" role="main" class="phsc-main mdl-layout__content" tabindex="-1">
       <!-- Slogan and background-->
       <div class="phsc-main__background">
         <div class="slogan mdl-typography--text-center"><h1>Welcome to the Staff and Faculty Portal</h1>
