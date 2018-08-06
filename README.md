@@ -1,11 +1,11 @@
 #PHSC Specific
-1. cd to theme folder
+1. cd to theme folder ```app/styles/src/```
 2. Source files are in (app) folder. All changes must be made in app folder!
 3. Compiled files are in (dist) folder
 
 ##Compile
-1. ```gulp serve``` to open up browser sync
-2. ```gulp``` to compile files to production (dist)
+1. $```gulp serve``` to open up browser sync
+2. $```gulp``` to compile files to production (dist)
 
 ##PHSC Sass folder
 > app/styles/src/phsc-custom
