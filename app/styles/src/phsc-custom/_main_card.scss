@@ -34,6 +34,11 @@
       background: url('../images/icon/cabinet.svg') bottom right 5% no-repeat $gold;
       background-size: 40% auto;
     }
+    // Navigate app
+    &.navigate {
+      background: url('../images/icon/navigate.svg') bottom right 5% no-repeat $gold;
+      background-size: 40% auto;
+    }
   }
   // Text
   .mdl-card__supporting-text {
